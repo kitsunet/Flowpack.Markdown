@@ -1,0 +1,15 @@
+{
+    "name": "flowpack/markdown",
+    "type": "typo3-flow-package",
+    "description": "Add description here",
+    "require": {
+        "typo3/flow": "*",
+        "pixel418/markdownify": "2.1.*",
+        "erusev/parsedown-extra": "*"
+    },
+    "autoload": {
+        "psr-0": {
+            "Flowpack\\Markdown": "Classes"
+        }
+    }
+}
